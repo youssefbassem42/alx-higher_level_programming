@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
+    """change roman number to int"""
     if not roman_string or type(roman_string) != str:
         return 0
     total = 0
