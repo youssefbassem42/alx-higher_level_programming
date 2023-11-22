@@ -31,4 +31,3 @@ class Square:
             print()
         for dash in range(0, self.__size):
             print("#" * self.__size)
-
